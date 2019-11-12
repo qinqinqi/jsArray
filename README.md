@@ -256,7 +256,7 @@ console.log(arr.reduce( (x , y) => x +y ));
 
 * arr.slice(start,end)
 
-  * 切去开始start到结束end的数组，不包含end索引值的值，返回值是切出来的数组
+  * 切去开始start到结束end的数组，当slice()不带参数的时候，摩恩返回的是一个和原数组相同的数组。
 
 * arr.forEach()
 
